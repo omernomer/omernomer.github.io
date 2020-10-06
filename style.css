@@ -1,0 +1,90 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+.container {
+    margin: auto;
+    position:relative;
+}
+body {
+    background-color: #0f3057;
+    font-family: 'Mukta', sans-serif;
+}
+.shrink {
+    width:600px;
+    margin: auto;
+    padding: 10px;
+    font-size: 15pt;
+}
+.header div {
+    width:fit-content;
+    margin: auto;
+    text-align: center;
+}
+.header {
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+nav {
+    height: 50px;
+    /*display: grid;*/
+    align-content: center;
+}
+nav li {
+    float:left;
+    list-style: none;
+}
+nav a {
+    text-decoration: none;
+    color:#fff;
+    margin:10px;
+}
+.content {
+    position: relative;
+    min-height: 300px;
+}
+.logo {
+    font-size: 20pt;
+    font-family: 'Lobster', cursive;
+    padding:10px;
+}
+.fullHeight {
+    height: fit-content;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    border-bottom:2px solid #ddd;
+}
+.brief {
+    background-color: #a6a6a4;
+    /*background-image: url(images/moroccan-flower.png);*/
+}
+.research {
+    background-color: #89beb3;
+}
+.research a {
+    color:#fff;
+    text-decoration: none;
+}
+h3 {
+    font-size: 20pt;
+    text-align: center;
+}
+.skills {
+    color:#fff;
+    background-color: #625261;
+}
+.work {
+    background-color: #e8e8e8;
+}
+td {
+    padding-right: 15px;
+}
+.footer {
+    color:#eee;
+}
+.footer a{
+    color:#fff;
+    padding:5px;
+}
